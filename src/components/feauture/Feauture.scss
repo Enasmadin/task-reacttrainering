@@ -1,0 +1,31 @@
+.all-courses{
+    flex: 2;
+    box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 2px 4px 10px 1px  rgba(0,0,0,0.47);
+     -moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+     .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: gray;
+        .title{
+            font-size: 16px;
+            font-weight: 500;
+            padding: 5px 0px 0px 10px;
+        }
+     }
+     .bottom{
+     .all-card{
+        width:100%;     
+        display: flex;
+        gap:15px;
+        padding-bottom: 20px;
+            p {
+                color:gray;
+                small{
+                 color: teal !important;
+                 font-size: 20px;
+               }
+            }
+        }
+    }}

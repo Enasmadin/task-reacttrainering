@@ -1,0 +1,100 @@
+.container-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    flex:2;
+    form{
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        gap: 30px;
+        .formInput-parent{
+          display: flex;
+          justify-content: space-between ;
+          width: 80%;
+        }
+        .formInput{
+            label{
+                display: flex;
+                align-items: center;
+                gap:10px;
+                padding-bottom: 8px;
+                .icon{
+                    cursor: pointer;
+                }
+            }
+            input ,select {
+                //  width: 25ch;
+                  
+                padding: 10px;
+                 color: rgb(128 128 128);
+                 &.text{
+                 border:1px solid #80808096 ;
+                 border-radius: 4px;    
+                 }
+                 &.text:focus {
+                 border:1px solid #80808096 ;
+                 outline: none;    
+                 }
+            }
+            select{
+                padding:10px 160px 10px 10px ;  
+                border-radius: 4px;  
+                border:1px solid #80808096 ;  
+                &:focus{
+                  border:1px solid #80808096 ;  
+                  outline: none;    
+                }
+            }
+            input[type="number"]{
+                &:focus{
+                    border:1px solid #80808096 ;  
+                    outline: none;    
+                  }   
+            } 
+        }
+        .saveData{
+            width: 150px;
+            background-color: teal;
+            padding: 10px; 
+            border: none;
+            color: white;
+            margin-top: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            height: 37px;
+        }
+    }
+ }
+ .css-e784if-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    padding-left: 5px !important;
+    font-size: 17px !important;
+}
+ .bottom .css-bkzwk2-MuiStack-root {
+   
+    display: flex;
+    -webkit-flex-direction: row !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row  !important;
+    overflow: auto;
+    padding-top: 8px;
+    justify-content: space-around;
+}
+.formInput-dataBaker{
+    width: 80% !important; 
+}
+.css-bkzwk2-MuiStack-root>:not(style)~:not(style) {
+     margin-top: 0px !important; 
+}
+
+.input-course{
+    padding:10px 90px 10px 10px !important ;    
+}
